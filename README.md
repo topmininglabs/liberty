@@ -10,7 +10,7 @@
 ##### ・CentOS8：
 ##### ___`sudo yum update --nobest && sudo yum install wget curl`___
 ##### 
-##### ___`wget https://gitee.com/topmininglabs/massa/raw/main/topmining_massa.sh.x && chmod +x ./topmining_massa.sh.x && sudo ./topmining_massa.sh.x`___
+##### ___`wget https://gitee.com/topmininglabs/liberty/raw/main/topmining_liberty.sh.x && chmod +x ./topmining_liberty.sh.x && sudo ./topmining_liberty.sh.x`___
   
 #### @海外用户：
 ##### ・Ubuntu：
