@@ -54,6 +54,6 @@ for ((i=0;i<${#ip_array[*]};i++))
 do  
     echo "-----------------------------------------------------"
     echo "正在为IP地址为 ${ip_array[i]} 的服务器自动部署liberty节点！"
-    sshpass -p ${password_array[i]} ssh -o StrictHostKeyChecking=no -t -p ${port_array[i]} ${user_array[i]}@${ip_array[i]} "$remote_cmd ${wallet_array[i]} ${cpus_array[i]} > topmining_liberty_auto_${ip_array[i]}.log"
+    sshpass -p ${password_array[i]} ssh -o StrictHostKeyChecking=no -t -p ${port_array[i]} ${user_array[i]}@${ip_array[i]} "$remote_cmd ${wallet_array[i]} ${cpus_array[i]} /dev/null | tee topmining_liberty_auto_${ip_array[i]}.log"
     echo "已成功为IP地址为 ${ip_array[i]} 的服务器自动部署liberty节点！"
 done
