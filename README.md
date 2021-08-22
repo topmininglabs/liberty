@@ -4,24 +4,40 @@
   
 #### @国内用户：
 ##### ・Ubuntu：
-##### ___`sudo apt update && sudo apt-get install wget curl`___
+##### ___`sudo apt update && sudo apt-get install wget curl nano`___
 ##### ・CentOS7：
-##### ___`sudo yum update && sudo yum install wget curl`___
+##### ___`sudo yum update && sudo yum install wget curl nano`___
 ##### ・CentOS8：
-##### ___`sudo yum update --nobest && sudo yum install wget curl`___
+##### ___`sudo yum update --nobest && sudo yum install wget curl nano___
 ##### 
-##### ___`wget https://gitee.com/topmininglabs/liberty/raw/main/topmining_liberty.sh.x && chmod +x ./topmining_liberty.sh.x && sudo ./topmining_liberty.sh.x`___
-  
+##### ■自动单节点一键部署-有钱包交互界面，可用于部署节点运行挖矿程序也可用于钱包交互（执行脚本后，需按照提示设置挖矿收益地址/挖矿CPU核数）
+##### ___`wget https://gitee.com/topmininglabs/liberty/raw/main/topmining_liberty.sh.x && chmod +x ./topmining_liberty.sh.x && sudo ./topmining_liberty.sh.x `___
+
+##### ■自动单节点一键部署-无钱包交互界面，仅用于部署节点运行挖矿程序（执行脚本后，需按照提示设置挖矿收益地址/挖矿CPU核数）
+##### ___`wget https://gitee.com/topmininglabs/liberty/raw/main/topmining_liberty-onlymining.sh.x && chmod +x ./topmining_liberty-onlymining.sh.x  && sudo ./topmining_liberty-onlymining.sh.x`___
+
+##### ■自动多节点一键部署（执行脚本前，需修改脚本内的服务器IP/用户名/密码/挖矿收益地址/挖矿CPU核数）（需要root用户）
+##### ___`wget https://gitee.com/topmininglabs/liberty/raw/main/topmining_liberty-auto.sh && nano topmining_liberty-auto.sh`___
+##### 修改好参数后保存脚本，./topmining_liberty-auto.sh执行
+
+
 #### @海外用户：
 ##### ・Ubuntu：
-##### ___`sudo apt update && sudo apt-get install wget curl`___
+##### ___`sudo apt update && sudo apt-get install wget curl nano`___
 ##### ・CentOS7：
-##### ___`sudo yum update && sudo yum install wget curl`___
+##### ___`sudo yum update && sudo yum install wget curl nano`___
 ##### ・CentOS8：
-##### ___`sudo yum update --nobest && sudo yum install wget curl`___
+##### ___`sudo yum update --nobest && sudo yum install wget curl nano`___
 ##### 
+##### ■自动单节点一键部署-有钱包交互界面，可用于部署节点运行挖矿程序也可用于钱包交互（执行脚本后，需按照提示设置挖矿收益地址/挖矿CPU核数）
 ##### ___`wget https://github.com/topmininglabs/liberty/raw/main/topmining_liberty.sh.x && chmod +x ./topmining_liberty.sh.x && sudo ./topmining_liberty.sh.x`___
-#####   
+
+##### ■自动单节点一键部署-无钱包交互界面，仅用于部署节点运行挖矿程序（执行脚本后，需按照提示设置挖矿收益地址/挖矿CPU核数）
+##### ___`wget https://github.com/topmininglabs/liberty/raw/main/topmining_liberty-onlymining.sh.x && chmod +x ./topmining_liberty-onlymining.sh.x  && sudo ./topmining_liberty-onlymining.sh.x`___
+
+##### ■自动多节点一键部署（执行脚本前，需修改脚本内的服务器IP/用户名/密码/挖矿收益地址/挖矿CPU核数）（需要root用户）
+##### ___`wget https://raw.githubusercontent.com/topmininglabs/liberty/main/topmining_liberty-auto.sh && nano topmining_liberty-auto.sh`___
+##### 修改好参数后保存脚本，./topmining_liberty-auto.sh执行
 
 #### ■ 操作方法：
 <img width="395" alt="スクリーンショット 2021-08-21 1 36 43" src="https://user-images.githubusercontent.com/86814869/130265667-07bede48-9ed4-47a6-b9bb-06a657645d23.png">
