@@ -71,6 +71,16 @@
 
 
 #### ■ 常用链接：  
-
+##### 1.官网：暂未公布细节
+##### 2.区块浏览器：http://www.liberty-chain.com/
+##### 3.官方水龙头：暂未公布细节
+##### 4.官方Git教程：https://github.com/Liberty-Chain/LBTRelease
+##### 5.官方文档：暂未公布细节
+##### 6.路线图（Milestone）：暂未公布细节
+##### 7.测试网奖励说明：暂未公布细节
+##### 8.官方电报群：暂未公布细节
+##### 9.官方Discord群：暂未公布细节
+##### 10.第三方矿池：https://lhpool.com/
+##### 11.资料汇总：https://shimo.im/docs/R8hwkVVJVJVdPXRQ/
 
 
